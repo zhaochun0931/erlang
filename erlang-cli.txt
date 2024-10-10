@@ -1,0 +1,10 @@
+epmd -names
+
+
+
+
+
+
+
+
+ps -ef | egrep -i beam.smp
