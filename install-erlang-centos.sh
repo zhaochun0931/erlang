@@ -16,6 +16,8 @@ rpm -ivh rabbitmq-server-4.0.2-1.el8.noarch.rpm
 
 /var/lib/rabbitmq/.erlang.cookie
 
+# how to manually start the erlang process
+nohup erl -sname mynode -setcookie mycookie &
 
 
 
