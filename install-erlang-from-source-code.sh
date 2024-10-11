@@ -8,7 +8,7 @@ otp_src_26.2.5.4.tar.gz
 # prerequsite
 
 sudo apt update
-sudo apt install build-essential libncurses5-dev libncursesw5-dev pkg-config -y
+sudo apt install build-essential libncurses5-dev libncursesw5-dev libssl-dev pkg-config -y
 
 gcc --version
 pkg-config --version
