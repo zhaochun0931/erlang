@@ -21,8 +21,3 @@ nohup erl -sname mynode -setcookie mycookie &
 
 # specifying the -sname option when starting the Erlang shell is not mandatory. If you don't provide it, Erlang will use a default name for the node, which typically includes the hostname and a random identifier.
 
-
-systemctl enable rabbitmq-server
-
-
-systemctl start rabbitmq-server
