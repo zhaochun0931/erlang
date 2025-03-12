@@ -1,9 +1,12 @@
 epmd -names
 
 
+# epmd -names
+epmd: up and running on port 4369 with data:
+name rabbit at port 25672
+#
 
-
-
+/usr/local/lib/erlang/erts-15.2.3/bin/epmd -daemon
 
 
 
